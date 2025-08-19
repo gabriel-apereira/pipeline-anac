@@ -1,12 +1,12 @@
-✈️ #pipeline-anac
-Este projeto simula um ambiente de Data Lake com foco em dados aeronáuticos, utilizando o dataset V_OCORRENCIA_AMPLA. A estrutura segue o modelo de camadas:
+# ✈️ pipeline-anac
 
-Raw (bronze): dados brutos
+Simulação de um ambiente de Data Lake com dados de ocorrências aeronáuticas, utilizando o dataset `V_OCORRENCIA_AMPLA`.
 
-Cleansed (silver): dados tratados
+O projeto está estruturado em camadas:
+- **Raw** (bronze): dados brutos
+- **Cleansed** (silver): dados tratados
+- **Curated** (gold): dados prontos para análise
 
-Curated (gold): dados prontos para análise
+Objetivo: demonstrar o fluxo de ingestão, transformação e organização de dados em uma arquitetura moderna.
 
-O objetivo é demonstrar o fluxo de ingestão, transformação e organização de dados em uma arquitetura moderna, com base em ocorrências registradas pela ANAC.
-
-Projeto com fins educacionais e exploratórios em engenharia de dados.
+> Projeto com fins educacionais e exploratórios em engenharia de dados.
